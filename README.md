@@ -11,7 +11,9 @@ Java SE - Downloads | Oracle Technology Network | Oracle
 ## How to download directly?
 * curl
 
-`curl -LOb "oraclelicense=a" "http://download.oracle.com/otn-pub/java/jdk/8u181-b13/96a7b8442fe848ef90c96a2fad6ed6d1/jdk-8u181-linux-x64.tar.gz"`
+`curl -kLO -H "Cookie: oraclelicense=accept-securebackup-cookie" "http://download.oracle.com/otn-pub/java/jdk/8u181-b13/96a7b8442fe848ef90c96a2fad6ed6d1/jdk-8u181-linux-x64.tar.gz"`
+
+Not applied to all links.
 
 ## [Java SE Development Kit 10.0.2](https://www.oracle.com/technetwork/java/javase/downloads/jdk10-downloads-4416644.html)
 |Product / File Description|File Size|                                                                               Download                                                                                |                        SHA256 Checksum                         |
